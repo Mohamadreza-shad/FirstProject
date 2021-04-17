@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sepid.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.ListOfBanks(System.String)">
+            <summary>
+            some more details about list of banks
+            </summary>
+            <param name="cardNumber"> Required item</param>
+            <returns>returns a detailed list of banks</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.CardToDeposit(System.String)">
+            <summary>
+            test summery explanation
+            </summary>
+            <param name="cardNumber">this is an important parameter</param>
+            <returns>this action returns card number details</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.CardToIban(System.String)">
+            <summary>
+            Card number-to-Iban number exchange 
+            </summary>
+            <param name="cardNumber">you need to insert your card number</param>
+            <returns>Returns Iban Number corresponding to card number</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.DepositToIban(SeptaPay.Integration.Sepid.Dtos.SepidDepositParam)">
+            <summary>
+            Deposit-to-Iban number exchange
+            </summary>
+            <param name="depositParam">enter your deposit parameters</param>
+            <returns>Returns Iban Number corresponding to deposit</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetCustomerInformation(System.String,System.String)">
+            <summary>
+            Getting some Customer personal Information
+            </summary>
+            <param name="nationalCode">enter your national code</param>
+            <param name="accountNumber">enter your account number</param>
+            <returns>Returns Customer personal Information</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetCustomerDetailInformation(System.String,System.String,System.Int64)">
+            <summary>
+            Getting some more detailed personal information about Customer
+            </summary>
+            <param name="nationalCode">enter your national code</param>
+            <param name="accountNumber">enter your account number</param>
+            <param name="birthday">Enter your date of birth</param>
+            <returns>Returns some specific personal information</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetPurchaseByEntityId(System.Int64)">
+            <summary>
+            Getting item properties which is bought by Customer(using EntityInfo)
+            </summary>
+            <param name="entityId">enter your entity id</param>
+            <returns>Returns information about item that customer has bought (using EntityInfo) </returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetPurchaseByRRN(System.Int64)">
+            <summary>
+            Getting item properties which is bought by Customer(using RRN)
+            </summary>
+            <param name="rRn">Enter your RRN</param>
+            <returns>Returns information about item that customer has bought (using RRN)</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetSepidBarcodeTaxiDriverInfo(System.String)">
+            <summary>
+            Getting taxi driver barcode information
+            </summary>
+            <param name="barcode"></param>
+            <returns>Returns information about taxi driver barcode </returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.GetSepidBarcodeTaxiDriverInfoByTermianlId(System.String)">
+            <summary>
+            Getting taxi driver barcode information by means of terminal id
+            </summary>
+            <param name="terminalId"></param>
+            <returns>Returns taxi driver barcode info by terminal id </returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.IbanInquiry(System.String)">
+            <summary>
+            sdjdhsdkjs
+            </summary>
+            <param name="cardNumber"></param>
+            <returns>djfhdkd</returns>
+        </member>
+        <member name="M:Sepid.Api.Controllers.SepidPaymentController.Purchase(SeptaPay.Integration.Sepid.Dtos.SepidPurchaseRequest)">
+            <summary>
+            some information about ietm which is bought by costumer
+            </summary>
+            <param name="purchaseRequest"></param>
+            <returns> Returns some info about items that costumer has bought</returns>
+        </member>
+    </members>
+</doc>
